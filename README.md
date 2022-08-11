@@ -68,10 +68,10 @@ python $SRCDIR/run_nli_with_swag.py \
 Important parameters are:
 
 ```
-run_nli_with_sway.py:
-+-- args.max_num_models (Maximum number of models to collect (older models are dropped after this number is exceeded), 
-                         equals to the rank of SWAG covariance matrix approximation)
-+-- args.swa_c_epochs (Frequency in epochs of SWA model collection)
+--swa (On/Off flag for using the SWA method)
+--max_num_models (Maximum number of models to collect (older models are dropped after this number is exceeded), 
+                   equals to the rank of SWAG covariance matrix approximation)
+--swa_c_epochs (Frequency in epochs of SWA model collection)
 ```
 
 # References
